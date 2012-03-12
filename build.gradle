@@ -1,0 +1,28 @@
+apply plugin: 'groovy'
+
+dependencies {
+	compile gradleApi()
+    groovy localGroovy()
+}
+
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.8.2'
+}
+
+group = 'com.github.venkatperi.gradle.plugins'
+version = '1.0-SNAPSHOT'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://localhost:8081/nexus/content/repositories/releases")
+            snapshotRepository(url: "http://localhost:8081/nexus/content/repositories/snapshots")
+        }
+    }
+}

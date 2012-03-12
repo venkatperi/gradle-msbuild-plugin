@@ -1,0 +1,20 @@
+package com.github.gradlemsbuildplugin 
+
+import org.junit.Test
+import org.gradle.testfixtures.ProjectBuilder
+import org.gradle.api.Project
+import static org.junit.Assert.*
+
+// START SNIPPET test-plugin
+class MSBuildPluginTest 
+{
+    @Test
+    public void greeterPluginAddsGreetingTaskToProject() 
+    {
+        Project project = ProjectBuilder.builder().build()
+        project.apply plugin: 'msbuild'
+
+        assertTrue(project.tasks.hello instanceof MSBuildTask)
+    }
+}
+// END SNIPPET test-plugin
