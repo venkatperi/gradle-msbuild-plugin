@@ -157,7 +157,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/msbuild.iml" filepath="$PROJECT_DIR$/msbuild.iml" />
-      <module fileurl="file://$PROJECT_DIR$/msbuild.iml" filepath="$PROJECT_DIR$/msbuild.iml" />
     </modules>
   </component>
   <component name="ProjectResources">

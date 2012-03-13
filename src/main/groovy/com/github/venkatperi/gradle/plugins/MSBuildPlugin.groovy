@@ -30,42 +30,44 @@ class MSBuildPlugin implements Plugin<Project> {
         project.extensions.msproject = new MSBuildExt(project)
         config = project.extensions.msproject
 
+
+
         //check if our consumer has set project properties
         if (!project.hasProperty(PROJECT_GUID)) {
             project.setProperty(PROJECT_GUID, '{' + randomUUID() + '}')
         }
 
-        def structure = project.task(STRUCTURE, type: StructureTask) << {
+        def structure = project.task(STRUCTURE, type: StructureTask) {
             description 'Create project directory structure'
             group CONFIGURE
         }
 
-        def vcxproj = project.task(VCXPROJ, type: VcxProjTask, dependsOn: [STRUCTURE]) << {
+        def vcxproj = project.task(VCXPROJ, type: VcxProjTask, dependsOn: [STRUCTURE]) {
             description 'Generate main (vcxproj) project file'
             group CONFIGURE
         }
 
-        project.task(FILTERS, type: FiltersTask, dependsOn: VCXPROJ) << {
+        project.task(FILTERS, type: FiltersTask, dependsOn: VCXPROJ) {
             description 'Generate project filters file (reflecting code hierarchy)'
             group CONFIGURE
         }
 
-        project.task(CONFIGURE, dependsOn: [STRUCTURE, VCXPROJ, FILTERS]) << {
+        project.task(CONFIGURE, dependsOn: [STRUCTURE, VCXPROJ, FILTERS]) {
             description 'All project configuration tasks including structure, vcxproj and filters'
             group CONFIGURE
         }
 
-        project.task(COMPILE, type: CompileTask, dependsOn: CONFIGURE) << {
+        project.task(COMPILE, type: CompileTask, dependsOn: CONFIGURE) {
             description = 'Compiles and links production C++ source files using msdev'
             group BUILD
         }
 
-        def stage = project.task(STAGE, type: StageTask, dependsOn: COMPILE) << {
+        def stage = project.task(STAGE, type: StageTask, dependsOn: COMPILE) {
             description 'stage files for archiving'
             group BUILD
         }
 
-        project.task(BUILD, dependsOn: [ASSEMBLE]) << {
+        project.task(BUILD, dependsOn: [ASSEMBLE]) {
             description 'Performs a full build of the project.'
             group BUILD
         }
@@ -77,6 +79,7 @@ class MSBuildPlugin implements Plugin<Project> {
             vcxproj.inputs.files.add l.outputs.files
         }
         catch (e) {
+            logger.info e.message
         }
 
         try {
@@ -84,6 +87,7 @@ class MSBuildPlugin implements Plugin<Project> {
             car.dependsOn 'stage'
         }
         catch (e) {
+            logger.info e.message
         }
     }
 }

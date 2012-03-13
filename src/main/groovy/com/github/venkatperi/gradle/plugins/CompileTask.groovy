@@ -1,16 +1,27 @@
+/*
+ * Copyright 2012 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * @author Venkat Peri. RemoteReality Corp. 
+ */
+
 package com.github.venkatperi.gradle.plugins
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
 import org.gradle.api.tasks.StopActionException
 
-/**
- * Created by IntelliJ IDEA.
- * User: vperi
- * Date: 3/6/12
- * Time: 3:55 PM
- * To change this template use File | Settings | File Templates.
- */
 class CompileTask extends DefaultTask {
     static final String MSBUILD_TOOLS_PATH = 'MSBuildToolsPath'
     static final String MSBUILD_EXE = 'msbuild.exe'
@@ -70,7 +81,7 @@ class CompileTask extends DefaultTask {
 
         project.exec {
             executable = msbuildExe
-            args = [projFile, "/p:Configuration=" + MsBuild.Build[buildConfig]]
+            args = [projFile, "/p:Configuration=" + MsBuild.Build[buildConfig]] + config.additionalArgs
         }
     }
 }

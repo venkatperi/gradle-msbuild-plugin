@@ -1,28 +1,80 @@
-apply plugin: 'groovy'
 
+//--------------------------------------------------------------------
+//repo_releases_url=
+//repo_snapshots_url=
+//repo_public_url=
+//repo_releases_username=
+//repo_releases_password=
+//repo_snapshots_username=
+//repo_snapshots_password=
+//--------------------------------------------------------------------
+
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+configurations.all {
+    resolutionStrategy{
+        cacheChangingModulesFor 0, 'minutes'
+        cacheDynamicVersionsFor 10, 'minutes'
+    }
+}
+
+configurations {
+    compile
+    release
+}
+
+buildscript {
+    dependencies {
+    }
+
+    configurations.all {
+        resolutionStrategy.cacheChangingModulesFor 0, 'minutes' 
+    }
+
+    repositories {
+        mavenRepo name: 'snapshots', url: repo_snapshots_url 
+        mavenRepo name: 'releases', url: repo_releases_url
+        mavenRepo name: 'public', url: repo_public_url
+    }
+}
+
+repositories {
+    mavenRepo name: 'snapshots', url: repo_snapshots_url 
+    mavenRepo name: 'releases', url: repo_releases_url
+    mavenRepo name: 'public', url: repo_public_url
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: repo_releases_url) {
+                authentication(userName: repo_releases_username, 
+                    password: repo_releases_password)
+                releases()
+                snapshots()
+                proxy()
+            }
+
+            repository(url: repo_snapshots_url) {
+                authentication(userName: repo_snapshots_username, 
+                    password: repo_snapshots_password)
+                releases()
+                snapshots()
+                proxy()
+            }
+        }
+    }
+}
+
+//--------------------------------------------------------------------
 dependencies {
 	compile gradleApi()
     groovy localGroovy()
 }
 
-apply plugin: 'maven'
-
-repositories {
-    mavenCentral()
-}
 
 dependencies {
     testCompile 'junit:junit:4.8.2'
 }
 
-group = 'com.github.venkatperi.gradle.plugins'
-version = '1.0-SNAPSHOT'
-
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url: "http://localhost:8081/nexus/content/repositories/releases")
-            snapshotRepository(url: "http://localhost:8081/nexus/content/repositories/snapshots")
-        }
-    }
-}

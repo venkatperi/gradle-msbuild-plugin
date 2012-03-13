@@ -5,13 +5,7 @@ import groovy.xml.StreamingMarkupBuilder
 import org.gradle.api.Project
 import org.gradle.api.tasks.StopActionException
 
-/**
- * Created by IntelliJ IDEA.
- * User: vperi
- * Date: 3/6/12
- * Time: 2:33 PM
- * To change this template use File | Settings | File Templates.
- */
+
 class MSBuildExt {
     private static final String CPP = 'cpp'
     private static final String CXX = 'cxx'
@@ -78,11 +72,26 @@ class MSBuildExt {
     List<String> libDirs = []
     List<String> libs = []
 
-//    String archiveName
     Object archiveCS
-//    String manifestStr
     String archiveBaseName
     String outputName
+
+    /**
+     * Additional arguments to msbuild.exe
+     */
+    List<String> additionalArgs = ['/nologo', '/v:m']
+
+    def debug(Closure c) {
+        project.configure(debug, c)
+    }
+
+    def release(Closure c) {
+        project.configure(release, c)
+    }
+
+    def global(Closure c) {
+        project.configure(global, c)
+    }
 
     class Config {
 
@@ -154,6 +163,9 @@ class MSBuildExt {
         testDir = src / main / test
         tmpDir = bld / tmp
         stageDir = bld / tmp / car
+
+        outDir += '/'
+        intDir += '/'
 
         if (!project.hasProperty(SHORT_NAME))
             project.shortName = project.name

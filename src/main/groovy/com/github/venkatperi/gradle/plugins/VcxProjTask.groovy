@@ -57,16 +57,16 @@ class VcxProjTask extends DefaultTask {
 
     def srcDirs = new File(config.srcDir)
 
-    List incDirs = [config.srcDir] + config.incDirs + Defaults.baseIncDirs
+    Set incDirs = [config.srcDir] + config.incDirs + Defaults.baseIncDirs
 
     def incDirFile = incDirs.collect { new File(it) }
 
-    List libDirs = config.libDirs + Defaults.baseLibDirs
+    Set libDirs = config.libDirs + Defaults.baseLibDirs
     def libDirFile = libDirs.collect { new File(it) }
 
-    List cxxflags = config.cxxFlags + Defaults.defines + (project.type == MsBuild.DLL ? Defaults.winDllDefines : []) + (project.type == MsBuild.LIB ? Defaults.winLibDefines : [])
+    Set cxxflags = config.cxxFlags + Defaults.defines + (project.type == MsBuild.DLL ? Defaults.winDllDefines : []) + (project.type == MsBuild.LIB ? Defaults.winLibDefines : [])
 
-    List libs = config.libs + Defaults.libs
+    Set libs = config.libs + Defaults.libs
 
     def libFiles = libs.collect { new File(it) }
 
@@ -86,8 +86,13 @@ class VcxProjTask extends DefaultTask {
             libs.addAll project.libraries.libs
         }
         catch (e) {
+            println e.message
         }
 
+        println "Include dirs: $incDirs"
+        println "Lib dirs: $libDirs"
+        println "Cxx flags: $cxxflags"
+        println "Link libs: $libs"
 
         def GlobalConfig = config.global.config
         def DebugConfig = config.debug.config

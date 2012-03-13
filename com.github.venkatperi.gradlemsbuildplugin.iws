@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc5b3b3-a45e-43d5-9e00-e46cba00cbe5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/VcxProjTask.groovy" />
       <change type="DELETED" beforePath="C:\rrdev\vperi\repos\com.github.venkatperi.gradle-msbuild-plugin\README" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.github.venkatperi.gradlemsbuildplugin.ipr" afterPath="$PROJECT_DIR$/com.github.venkatperi.gradlemsbuildplugin.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.github.venkatperi.gradlemsbuildplugin.iws" afterPath="$PROJECT_DIR$/com.github.venkatperi.gradlemsbuildplugin.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/CompileTask.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/CompileTask.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildExt.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildExt.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildPlugin.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildPlugin.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/VcxProjTask.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/VcxProjTask.groovy" />
     </list>
     <ignored path="com.github.venkatperi.gradlemsbuildplugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,10 +91,44 @@
       <file leaf-file-name="VcxProjTask.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/VcxProjTask.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="72" selection-start="6516" selection-end="6516" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#46#77#0" expanded="true" />
-              </folding>
+            <state line="19" column="65" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StructureTask.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/StructureTask.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="30" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StageTask.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/StageTask.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WinRegistry.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/WinRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FiltersTask.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/FiltersTask.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="32" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.26634383">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,29 +136,7 @@
       <file leaf-file-name="CompileTask.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/CompileTask.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="66" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#46#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MSBuildTaskTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/tests/MSBuildTaskTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#52#109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectType.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/ProjectType.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+            <state line="83" column="103" selection-start="2790" selection-end="2790" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,24 +151,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MSBuildExt.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MSBuildExt.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildExt.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="145" selection-start="3449" selection-end="3449" vertical-scroll-proportion="0.346247">
-              <folding>
-                <element signature="e#46#92#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FiltersTask.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/FiltersTask.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#46#77#0" expanded="true" />
-              </folding>
+            <state line="187" column="53" selection-start="5406" selection-end="5406" vertical-scroll-proportion="-18.548388">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,18 +163,16 @@
       <file leaf-file-name="MSBuildPlugin.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildPlugin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="23" selection-start="2517" selection-end="2602" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#46#74#0" expanded="true" />
-              </folding>
+            <state line="35" column="45" selection-start="1109" selection-end="1113" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Input.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/gradle/lib/gradle-core-1.0-milestone-8a.jar!/org/gradle/api/tasks/Input.class">
+      <file leaf-file-name="Task.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/gradle/lib/gradle-core-1.0-milestone-8a.jar!/org/gradle/api/Task.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="353" selection-end="353" vertical-scroll-proportion="-5.28">
+            <state line="28" column="24" selection-start="1068" selection-end="1068" vertical-scroll-proportion="-12.6">
               <folding />
             </state>
           </provider>
@@ -198,13 +201,13 @@
         <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/BuildTask.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/StructureTask.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/StageTask.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildPlugin.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/FiltersTask.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/CrtLibraries.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/ProjectType.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/CompileTask.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/VcxProjTask.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MsBuild.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildPlugin.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/VcxProjTask.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/CompileTask.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildExt.groovy" />
       </list>
     </option>
@@ -287,104 +290,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradlemsbuildplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradlemsbuildplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradle-msbuild-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradlemsbuildplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradle-msbuild-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradlemsbuildplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradlemsbuildplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradle-msbuild-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradlemsbuildplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi.gradle-msbuild-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files" />
       </pane>
@@ -442,30 +347,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.venkatperi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle.plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="com.github.gradlemsbuildplugin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="com.github.venkatperi.gradlemsbuildplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="msbuild" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.github.gradlemsbuildplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -776,13 +669,11 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -791,6 +682,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37288135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973205" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -851,131 +744,101 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/gradlemsbuildplugin/MSBuildPluginTest.groovy_">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.28370458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/gradle/lib/gradle-core-1.0-milestone-8a.jar!/org/gradle/api/execution/TaskExecutionGraph.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="166" selection-end="184" vertical-scroll-proportion="0.10628019">
-          <folding />
-        </state>
+        <state line="5" column="35" selection-start="166" selection-end="184" vertical-scroll-proportion="0.10628019" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/gradle/lib/gradle-core-1.0-milestone-8a.jar!/org/gradle/api/invocation/Gradle.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="676" selection-end="676" vertical-scroll-proportion="0.34299517">
-          <folding />
-        </state>
+        <state line="21" column="38" selection-start="676" selection-end="676" vertical-scroll-proportion="0.34299517" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/WinRegistry.java">
+    <entry file="jar://C:/Program Files/gradle/lib/gradle-core-1.0-milestone-8a.jar!/org/gradle/api/tasks/OutputFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="431" selection-end="431" vertical-scroll-proportion="0.025791325">
-          <folding />
-        </state>
+        <state line="7" column="18" selection-start="353" selection-end="353" vertical-scroll-proportion="0.16479401" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/StructureTask.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/tests/MSBuildTaskTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="512" selection-end="512" vertical-scroll-proportion="0.4384525">
-          <folding>
-            <element signature="e#46#79#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="6" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/StageTask.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/ProjectType.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.59320045">
-          <folding>
-            <element signature="e#46#79#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/gradle/lib/gradle-core-1.0-milestone-8a.jar!/org/gradle/api/tasks/Input.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="353" selection-end="353" vertical-scroll-proportion="-5.28">
-          <folding />
-        </state>
+        <state line="7" column="18" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/FiltersTask.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MsBuild.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#46#77#0" expanded="true" />
-          </folding>
+        <state line="69" column="17" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/gradle/lib/gradle-core-1.0-milestone-8a.jar!/org/gradle/api/Task.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="24" selection-start="1068" selection-end="1068" vertical-scroll-proportion="-12.6">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildPlugin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="23" selection-start="2517" selection-end="2602" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#46#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/ProjectType.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/tests/MSBuildTaskTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#52#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/CompileTask.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="66" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#46#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/gradle/lib/gradle-core-1.0-milestone-8a.jar!/org/gradle/api/tasks/OutputFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="353" selection-end="353" vertical-scroll-proportion="0.16479401">
+        <state line="35" column="45" selection-start="1109" selection-end="1113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/VcxProjTask.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="72" selection-start="6516" selection-end="6516" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#46#77#0" expanded="true" />
-          </folding>
+        <state line="19" column="65" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MsBuild.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/StructureTask.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="17" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.0">
+        <state line="17" column="30" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/StageTask.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/WinRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/CompileTask.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="103" selection-start="2790" selection-end="2790" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/MSBuildExt.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="145" selection-start="3449" selection-end="3449" vertical-scroll-proportion="0.346247">
-          <folding>
-            <element signature="e#46#92#0" expanded="true" />
-          </folding>
+        <state line="187" column="53" selection-start="5406" selection-end="5406" vertical-scroll-proportion="-18.548388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/com/github/venkatperi/gradle/plugins/FiltersTask.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="32" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.26634383">
+          <folding />
         </state>
       </provider>
     </entry>
